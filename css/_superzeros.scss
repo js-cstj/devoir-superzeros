@@ -1,0 +1,35 @@
+#app {
+    background-image: url('../img/cartoon/lutece.webp');
+    background-size: auto 100%;
+}
+.perso {
+    position: absolute;
+}
+#supermenton {
+    height: 40vh;
+    bottom: 5vh;
+    left: 15vh;
+}
+#velaire {
+    height: 20vh;
+    top: 10vh;
+    left: 60vh;
+    transform: scale(-1, 1);
+}
+#bobette {
+    height: 20vh;
+    bottom: 20vh;
+    left: 90vh;
+    transform: scale(-1, 1);
+}
+#collector {
+    height: 5vh;
+    bottom: 66.5vh;
+    left: 135vh;
+    transform: scale(-1, 1);
+}
+#erudit {
+    height: 95vh;
+    bottom: -10vh;
+    left: 115vh;
+}

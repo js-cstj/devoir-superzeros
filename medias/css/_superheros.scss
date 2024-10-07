@@ -1,0 +1,25 @@
+#app {
+    --fond: hsl(var(--h), var(--s), 10%);
+    --pale: hsl(var(--h), var(--s), 90%);
+    background-color: var(--fond);
+    > h2 {
+        text-align: center;
+        font-size: 3.5em;
+        margin: 2rem 0 1rem;
+        color: hsl(var(--h), var(--s), 95%);;
+    
+        font-weight: bold;
+        line-height: 1;
+    }
+}
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: var(--pale);
+    border-radius: .5em;
+    padding: 1.5em;
+}
+@import 'personnages';
+@import 'villes';

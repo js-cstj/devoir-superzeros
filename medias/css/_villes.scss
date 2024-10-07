@@ -1,0 +1,35 @@
+section.villes {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-gap: 1em;
+	
+	> article {
+		background-size: contain;
+		aspect-ratio: 5 / 2;
+		box-shadow: inset .1em .1em .5em #0008;
+		animation-name: defiler;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		animation-play-state: paused;
+		animation-fill-mode: forwards;
+		h2 {
+			font-size: 2em;
+			color: white;
+			text-shadow: 0em .1em .1em black;
+			line-height: 1;
+		}
+		&:hover {
+			animation-play-state: running;
+		}
+	}
+}
+@keyframes defiler {
+	0% {
+		background-position: 0% 0%;
+	}
+	100% {
+		background-position: -400% 0%;
+	}
+	
+}
