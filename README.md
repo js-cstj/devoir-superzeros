@@ -36,7 +36,7 @@ Le devoir est divisé en deux étapes bien distinctes qui demandera une remise �
 ### La feuille de styles
 
 - L'ensemble de la scène peut avoir des dimensions fixes ou qui s'adaptent à la fenêtre du navigateur.
-- Les feuilles de styles sont disponibles dans le dossier `css`. Il est fortement conseillé de travailler en SCSS, mais si vous le souhaitez, vous pouvez travailler directement dans le fichier `style.scss`. Dans ce cas, **supprimez** les fichiers `.scss` pour ne pas écraser malencontreusement votre travail.
+- Les feuilles de styles sont disponibles dans le dossier `css`. Il est fortement conseillé de travailler en SCSS, mais si vous le souhaitez, vous pouvez travailler directement dans le fichier `style.css`. Dans ce cas, **supprimez** les fichiers `.scss` pour ne pas écraser malencontreusement votre travail.
 - Les personnages sont des images `WEBP` avec un fond transparent.
 - Pour les animations, positionnez les personnages en `absolute` dans un conteneur en `relative`.
 - Le positionnement des personnages peut se faire dans la feuille de styles ou dans le fichier JavaScript (ou les deux).

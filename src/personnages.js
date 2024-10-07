@@ -47,7 +47,7 @@ export default {
 	"capitaine-brise": {
 		nom: "Capitaine Brise",
 		img: "capitaine-brise.webp",
-		description: "<i>Capitaine Brise</i> est un super-héros léger et rapide, capable de manipuler les courants d'air avec son inséparable vire-vent. Toujours optimiste et prêt à aider, il apporte une touche d'humour et de légèreté à chaque mission. Avec son grand sourire et son allure enfantine, il est le champion des brises douces et des rafales surprises.",
+		description: "Capitaine Brise est un super-héros léger et rapide, capable de manipuler les courants d'air avec son inséparable vire-vent. Toujours optimiste et prêt à aider, il apporte une touche d'humour et de légèreté à chaque mission. Avec son grand sourire et son allure enfantine, il est le champion des brises douces et des rafales surprises.",
 	},
 	"erudit": {
 		nom: "L'Érudit",
