@@ -1,0 +1,34 @@
+#interface,
+.interface {
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+
+	&>header,
+	&>footer {
+		padding: .5em 1em;
+		background-color: hsl(var(--h), var(--s), 30%);
+		color: hsl(var(--h), var(--s), 100%);
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&>header {
+		font-size: min(3vw, 2rem);
+		justify-content: center;
+
+		img {
+			height: 2em;
+			vertical-align: middle;
+			margin: -.3em;
+			margin-right: -1.25em;
+		}
+		text-shadow: 0 .1em .2em black;
+
+	}
+
+	&>nav {
+		background-color: hsl(var(--h), var(--s), 35%);
+		color: hsl(var(--h), var(--s), 100%);
+	}
+}

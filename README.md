@@ -36,10 +36,10 @@ Le devoir est divisé en deux étapes bien distinctes qui demandera une remise �
 ### La feuille de styles
 
 - L'ensemble de la scène peut avoir des dimensions fixes ou qui s'adaptent à la fenêtre du navigateur.
-- Les feuilles de styles sont disponibles dans le dossier `css`. Il est fortement conseillé de travailler en SCSS, mais si vous le souhaitez, vous pouvez travailler directement dans le fichier `style.css`. Dans ce cas, **supprimez** les fichiers `.scss` pour ne pas écraser malencontreusement votre travail.
+- Les feuilles de styles sont disponibles dans le dossier `css`.
 - Les personnages sont des images `WEBP` avec un fond transparent.
 - Pour les animations, positionnez les personnages en `absolute` dans un conteneur en `relative`.
-- Le positionnement des personnages peut se faire dans la feuille de styles ou dans le fichier JavaScript (ou les deux).
+- Le positionnement des personnages peut se faire dans la feuille de styles ou dans le fichier JavaScript (ou une combinaison des deux).
 
 ## Consignes générales
 
@@ -76,7 +76,7 @@ Le devoir est divisé en deux étapes bien distinctes qui demandera une remise �
   - `keydown` et/ou `keyup`
   - autre au choix: `mousemove`, `dblclick`, `scroll`, `resize`, `wheel`, `focus`/`blur`...
 - Un des événements doit être restreint par une touche de modification (`shift`, `ctrl`, `alt` ou `meta`)
-- Pour la première étape, les événements ne font qu'afficher la description du personnage.
+- Pour la première étape, les événements ne font **qu'afficher** la description du personnage.
 - Les descriptions peuvent être générées par programmation à chaque déclenchement ou être des éléments HTML cachés que l'on affiche.
 - Les descriptions proviennent du fichier `personnages.js`.
 
@@ -98,6 +98,6 @@ Le devoir est divisé en deux étapes bien distinctes qui demandera une remise �
 ## Remises
 
 - Super-Zéros est un devoir combiné.
-- L'étape 1 compte pour 5% et doit être remise avant le laboratoire au retour de la relâche.
-- L'étape 2 compte pour 5% et doit être remise avant le laboratoire de la semaine suivante.
+- L'étape 1 compte pour 5% et doit être remise avant le laboratoire du 30 octobre 2025.
+- L'étape 2 compte pour 5% et doit être remise avant le laboratoire du 6 novembre 2025.
 - Les remises se font dans Teams.
